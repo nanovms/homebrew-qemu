@@ -23,6 +23,8 @@ class Qemu < Formula
   end
 
   bottle do
+    # no nanovms-specific patches at the moment; use bottles from Homebrew
+    root_url "https://homebrew.bintray.com/bottles"
     sha256 arm64_big_sur: "ed35771ec8725d39c1d8113496d3d5eb826c005707166d4d4245414b72917d6c"
     sha256 big_sur:       "b3e345a9bdf7b44c9250c3a806d30509903a025c6a10e021804e4b0389906a76"
     sha256 catalina:      "9c2c7f34bdaa6e2398b1a54385b3e25a2b67c19e3f8ceae8ea9b649b5626448c"
